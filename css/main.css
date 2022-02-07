@@ -1,0 +1,30 @@
+:root {
+	font-size: 1.25vw;
+	font-family: sans-serif;
+    --golden-ratio-lg: 0.618;
+    --golden-ratio-sm: calc(1 - var(--golden-ratio-lg));
+    --container-width: calc(100vw - (100vw*var(--golden-ratio-lg)*var(--golden-ratio-lg)*var(--golden-ratio-lg)));
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	margin: 1rem auto;
+	width: var(--container-width);
+}
+
+.border {
+	border: 1px solid #ddd;
+}
+
+.hidden {
+	display: none;
+}
