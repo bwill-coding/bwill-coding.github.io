@@ -1,15 +1,20 @@
 :root {
 	font-size: 1.25vw;
 	font-family: sans-serif;
-    --golden-ratio-lg: 0.618;
-    --golden-ratio-sm: calc(1 - var(--golden-ratio-lg));
-    --container-width: calc(100vw - (100vw*var(--golden-ratio-lg)*var(--golden-ratio-lg)*var(--golden-ratio-lg)));
+    	--golden-ratio-lg: 0.618;
+    	--golden-ratio-sm: calc(1 - var(--golden-ratio-lg));
+    	--container-width: calc(100vw - (100vw*var(--golden-ratio-lg)*var(--golden-ratio-lg)*var(--golden-ratio-lg)));	
 }
 
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	color: #323537;
+}
+
+body {
+	background-color: #f0f0ef;
 }
 
 ul {
